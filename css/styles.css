@@ -207,9 +207,6 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
 }
 
 .feature-list {
@@ -708,6 +705,16 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+.visually-hidden:checked + span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
+.checkbox-label-link {
+  color: #4d5ae5;
 }
 
 .order-service {
