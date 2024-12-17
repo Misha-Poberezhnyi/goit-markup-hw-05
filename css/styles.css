@@ -546,6 +546,8 @@ img {
   fill: #fff;
 }
 
+/*Modal Window*/
+
 .modal-window {
   position: fixed;
   top: 0;
@@ -638,18 +640,18 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.window-modal-input:focus {
+.window-input:focus {
   border-color: #4d5ae5;
 }
 
-.btn-icon-input {
+.icon-input {
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn-icon-input:focus {
+.icon-input:focus {
   fill: #4d5ae5;
 }
 
