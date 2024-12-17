@@ -689,10 +689,6 @@ img {
   color: #8e8f99;
 }
 
-.checkbox-label-link {
-  color: #4d5ae5;
-}
-
 .checkbox-label-span {
   width: 16px;
   height: 16px;
@@ -707,7 +703,7 @@ img {
   fill: transparent;
 }
 
-.visually-hidden:checked + span {
+input:checked + .modal-checkbox-label .checkbox-label-span .span-icon {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
